@@ -1,8 +1,59 @@
+@import '~sass/styles';
+
 :host {
   display: block;
   margin-top: 30px;
-
   // border: 1px solid magenta;
+
+  .search-options-box {
+    border: 1px solid red;
+
+    form {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .form-group {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        // border: 1px solid lightgreen;
+
+        .form-control {
+          width: 30%;
+        }
+
+        .btn-image {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: auto 100%;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-current-location {
+            width: 30px;
+            height: 25px;
+            background-image: url(../assets/icons/current-location.png);
+        }
+
+        .btn-submit {
+            width: 30px;
+            height: 30px;
+            background-image: url(../assets/icons/magnifying-glass.png);
+        }
+      }
+    }
+
+    // .btn-container {
+    //   border: 1px solid blue;
+    // }
+  }
+
   .venues-list {
     margin-top: 30px;
     // border: 1px solid blue;

@@ -1,29 +1,25 @@
 <div class="container">
   <div class="search-options-box">
     <form novalidate [formGroup]="frmSearchOptions" (ngSubmit)="searchVenues()">
-      <div class="fields-container">
-        <div class="form-group">
-          <select formControlName="category" class="form-control">
-            <option [value]="category.id" [attr.label]="category.name" *ngFor="let category of categories">
-              {{ category.name }}
-            </option>
-          </select>
-          <input type="text" formControlName="place" class="form-control" placeholder="Where?">
-
-          <div *ngIf="frmSearchOptions.get('place').touched && frmSearchOptions.get('place').invalid" class="input-alert">
-            <div *ngIf="frmSearchOptions.get('place').hasError('required')">
-              Please, provide a location to search for the venues.
-            </div>
-            <!-- <div *ngIf="frmSearchOptions.get('place').hasError('pattern')">
+      <div class="form-group">
+        <select formControlName="category" class="form-control">
+          <option [value]="category.id" [attr.label]="category.name" *ngFor="let category of categories">
+            {{ category.name }}
+          </option>
+        </select>
+        <input type="text" formControlName="place" class="form-control" placeholder="Where?">
+        <div *ngIf="frmSearchOptions.get('place').touched && frmSearchOptions.get('place').invalid" class="input-alert">
+          <div *ngIf="frmSearchOptions.get('place').hasError('required')">
+            Please, provide a location to search for the venues.
+          </div>
+          <!-- <div *ngIf="frmSearchOptions.get('place').hasError('pattern')">
               Incorrect place.
             </div> -->
-          </div>
         </div>
+        <button type="button" class="btn-current-location btn-image" (click)="getCurrentLocation()"></button>
       </div>
-      <div class="btn-container">
-        <div class="btn-loading">
-          <button type="submit" [disabled]="frmSearchOptions.invalid" class="btn-next btn-arrow-two-color">Buscar</button>
-        </div>
+      <div class="form-group btn-container">
+        <button type="submit" [disabled]="frmSearchOptions.invalid" class="btn-submit btn-image"></button>
       </div>
     </form>
   </div>

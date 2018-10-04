@@ -17,13 +17,13 @@ export class AppComponent implements OnInit {
   categories = {};
   frmSearchOptions: FormGroup;
   message = '';
+  userCoords = '';
 
   constructor(private fb: FormBuilder, public readonly httpRequestsService: HttpRequestsService) {
 
     this.frmSearchOptions = fb.group({
       'category': [null],
-      'place': [null, Validators.compose([Validators.required])]
-      // 'place': [null, Validators.compose([Validators.required, Validators.pattern('^[A-Z]*$')])],
+      'place': [null]
     });    
 
   }
@@ -62,11 +62,22 @@ export class AppComponent implements OnInit {
     let category = this.frmSearchOptions.value.category;
     let place = this.frmSearchOptions.value.place;
 
-    alert("searching venues in: " + place);
+   // alert("searching venues in: " + place);
+   // alert(this.userCoords);
 
-    let api_url = 'https://api.foursquare.com/v2/venues/search?' + environment.client_id + '&' + environment.client_secret + '&' +  environment.version;
+    let apiSearchVenuesURL = 'https://api.foursquare.com/v2/venues/search?' + environment.client_id + '&' + environment.client_secret + '&' +  environment.version;
 
-    this.httpRequestsService.sendGetRequest(api_url + '&near=' + place + '&categoryId=' + category + '&limit=50').subscribe(
+    if(place != null){
+      apiSearchVenuesURL += '&near=' + place;
+    } else {
+      apiSearchVenuesURL += '&ll=' + this.userCoords;
+    }
+
+    if(category != null){
+      apiSearchVenuesURL += '&categoryId=' + category;
+    }
+    
+    this.httpRequestsService.sendGetRequest(apiSearchVenuesURL + '&limit=50').subscribe(
 
       res => {
         console.log(res);
@@ -83,6 +94,23 @@ export class AppComponent implements OnInit {
       }
     );
 
+  }
+
+  getCurrentLocation(){
+
+    var self = this;
+
+    if(navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function(position){
+        let latitude = position.coords.latitude;
+        let longitude = position.coords.longitude;
+        self.userCoords = latitude + ',' + longitude;
+
+        self.searchVenues();
+      });
+    } else {
+      alert("Geolocation not supported by this browser.");
+    }
   }
 
 
