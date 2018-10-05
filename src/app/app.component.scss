@@ -2,13 +2,13 @@
 
 :host {
   display: block;
-  padding-top: 100px;
+  // padding-top: 100px;
 
   .header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 30px;
+    padding: 35px;
     background-color: get-color(primary-color-1);
 
     .container {
@@ -37,6 +37,7 @@
             margin: 0;
 
             .form-control {
+              font-size: get-rem(_14px);
               width: 40%;
             }
 
@@ -60,8 +61,26 @@
   }
 
   .venues-list {
-    margin-top: 30px;
-    // border: 1px solid blue;
+    padding-top: 150px;
+    min-height: 100vh;
+
+    &.bordered {
+      border: 1px solid get-color(primary-color-5);
+      box-shadow: $shadow;
+    }
+
+    .cover {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-items: center;
+      min-height: calc(100vh - 150px);
+
+      img {
+        width: 50%;
+        height: auto;
+      }
+    }
   }
 
   #venue-detail {
