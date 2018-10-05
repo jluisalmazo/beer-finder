@@ -3,7 +3,10 @@ import { HttpRequestsService } from './services/http-requests.service';
 import { HttpErrorResponse } from '@angular/common/http';
 import { environment } from '../environments/environment';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import * as $ from 'jquery';
+import 'bootstrap/js/dist/modal';
 
+//import { $ } from 'protractor';
 
 @Component({
   selector: 'app-root',
@@ -13,8 +16,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class AppComponent implements OnInit {
 
   title = 'Venues Finder';
-  venues = {};
-  categories = {};
+  venues = [];
+  categories = [];
   frmSearchOptions: FormGroup;
   message = '';
   userCoords = '';
@@ -24,7 +27,7 @@ export class AppComponent implements OnInit {
     this.frmSearchOptions = fb.group({
       'category': [null],
       'place': [null]
-    });    
+    });
 
   }
 
@@ -32,51 +35,53 @@ export class AppComponent implements OnInit {
 
     /* Fills categories from API */
 
-    let apiCategoriesURL = 'https://api.foursquare.com/v2/venues/categories?' + environment.client_id + '&' + environment.client_secret + '&' +  environment.version;
+    // let apiCategoriesURL = 'https://api.foursquare.com/v2/venues/categories?' + environment.client_id + '&' + environment.client_secret + '&' + environment.version;
 
-    this.httpRequestsService.sendGetRequest(apiCategoriesURL).subscribe(
-      res => {
-        console.log(res);
-        this.categories = res['response']['categories'];
+    // this.httpRequestsService.sendGetRequest(apiCategoriesURL).subscribe(
+    //   res => {
+    //     console.log(res);
+    //     this.categories = res['response']['categories'];
 
-      },
-      (err: HttpErrorResponse) => {
-        console.log(err);
-        this.message = err['error']['meta']['errorDetail']; 
-        if (err.status >= 500) {
-          this.message = 'Server-side error occured: ' + this.message;
-        } else {
-          this.message = 'Client-side error occured: ' + this.message;
-        }
-      }
-    );
+    //   },
+    //   (err: HttpErrorResponse) => {
+    //     console.log(err);
+    //     this.message = err['error']['meta']['errorDetail'];
+    //     if (err.status >= 500) {
+    //       this.message = 'Server-side error occured: ' + this.message;
+    //     } else {
+    //       this.message = 'Client-side error occured: ' + this.message;
+    //     }
+    //   }
+    // );
 
   }
 
-  searchVenues(){
+  searchVenues() {
 
     console.log("///////////////////////////////////////");
     console.log(this.frmSearchOptions);
     console.log("///////////////////////////////////////");
 
+    this.message = '';
+
     let category = this.frmSearchOptions.value.category;
     let place = this.frmSearchOptions.value.place;
 
-   // alert("searching venues in: " + place);
-   // alert(this.userCoords);
+    // alert("searching venues in: " + place);
+    // alert(this.userCoords);
 
-    let apiSearchVenuesURL = 'https://api.foursquare.com/v2/venues/search?' + environment.client_id + '&' + environment.client_secret + '&' +  environment.version;
+    let apiSearchVenuesURL = 'https://api.foursquare.com/v2/venues/search?' + environment.client_id + '&' + environment.client_secret + '&' + environment.version;
 
-    if(place != null){
+    if ((place != null) && (place != '')) {
       apiSearchVenuesURL += '&near=' + place;
     } else {
       apiSearchVenuesURL += '&ll=' + this.userCoords;
     }
 
-    if(category != null){
+    if (category != null) {
       apiSearchVenuesURL += '&categoryId=' + category;
     }
-    
+
     this.httpRequestsService.sendGetRequest(apiSearchVenuesURL + '&limit=50').subscribe(
 
       res => {
@@ -84,24 +89,30 @@ export class AppComponent implements OnInit {
         this.venues = res['response']['venues'];
       },
       (err: HttpErrorResponse) => {
+
         console.log(err);
-        this.message = err['error']['meta']['errorDetail']; 
+        this.message = err['error']['meta']['errorDetail'];
         if (err.status >= 500) {
           this.message = 'Server-side error occured: ' + this.message;
         } else {
-          this.message = 'Client-side error occured: ' + this.message;
+          if (err.status == 429) {
+            this.message = 'Foursquare quota for this endpoint was exceeded. Please, try tomorrow.';
+          } else {
+            this.message = 'Client-side error occured: ' + this.message;
+          }
         }
+        alert(this.message);
       }
     );
 
   }
 
-  getCurrentLocation(){
+  getCurrentLocation() {
 
     var self = this;
 
-    if(navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function(position){
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function (position) {
         let latitude = position.coords.latitude;
         let longitude = position.coords.longitude;
         self.userCoords = latitude + ',' + longitude;
@@ -113,5 +124,48 @@ export class AppComponent implements OnInit {
     }
   }
 
+
+  showVenueDetail(venueId) {
+
+    // let apiGetVenueDetailURL = 'https://api.foursquare.com/v2/venues/' + venueId + '?' + environment.client_id + '&' + environment.client_secret + '&' + environment.version;
+
+    // this.httpRequestsService.sendGetRequest(apiGetVenueDetailURL).subscribe(
+
+    //   res => {
+    //     console.log(res);
+
+    //     let venueName = res['response']['venue']['name'];
+    //     let venueFormattedAddress = res['response']['venue']['location']['formattedAddress'];
+    //     let venueBestPhoto = res['response']['venue']['bestPhoto'];
+
+    //     let venueBestPhotoURL = venueBestPhoto['prefix'] + 'original' + venueBestPhoto['suffix'];
+
+
+    //     let $venueBestPhotoElement = $("<img>").attr("src", venueBestPhotoURL);
+
+
+    //     $("#venue-detail .modal-title").html(venueName);
+    //     $("#venue-detail .modal-body").html(venueFormattedAddress).append($venueBestPhotoElement);
+    //     $("#venue-detail").modal('show');
+
+    //   },
+    //   (err: HttpErrorResponse) => {
+
+    //     console.log(err);
+    //     let errorMessage = err['error']['meta']['errorDetail'];
+    //     if (err.status >= 500) {
+    //       errorMessage = 'Server-side error occured: ' + errorMessage;
+    //     } else {
+    //       if (err.status == 429) {
+    //         errorMessage = 'Foursquare quota for this endpoint was exceeded. Please, try tomorrow.';
+    //       } else {
+    //         errorMessage = 'Client-side error occured: ' + errorMessage;
+    //       }
+    //     }
+    //     alert(errorMessage);
+    //   }
+    // );
+
+  }
 
 }

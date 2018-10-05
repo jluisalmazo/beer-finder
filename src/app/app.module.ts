@@ -5,7 +5,6 @@ import { HttpRequestsService } from './services/http-requests.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
-
 @NgModule({
   declarations: [
     AppComponent
@@ -14,11 +13,11 @@ import { AppComponent } from './app.component';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [
     HttpRequestsService,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

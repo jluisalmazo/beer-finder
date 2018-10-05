@@ -2,60 +2,81 @@
 
 :host {
   display: block;
-  margin-top: 30px;
-  // border: 1px solid magenta;
+  padding-top: 100px;
 
-  .search-options-box {
-    border: 1px solid red;
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: get-color(primary-color-1);
 
-    form {
+    .container {
       display: flex;
       flex-flow: row wrap;
       justify-content: space-between;
       align-items: center;
 
-      .form-group {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-        // border: 1px solid lightgreen;
+      .logo {
+        font-size: get-rem(_26px);
+        color: get-color(primary-color-2);
+      }
 
-        .form-control {
-          width: 30%;
-        }
+      .search-box {
+        width: 50%;
+        // border: 1px solid magenta;
 
-        .btn-image {
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: auto 100%;
-            outline: none;
-            border: none;
-            cursor: pointer;
-        }
+        form {
+          // border: 1px solid yellow;
 
-        .btn-current-location {
-            width: 30px;
-            height: 25px;
-            background-image: url(../assets/icons/current-location.png);
-        }
+          .form-group {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
 
-        .btn-submit {
-            width: 30px;
-            height: 30px;
-            background-image: url(../assets/icons/magnifying-glass.png);
+            .form-control {
+              width: 40%;
+            }
+
+            .btn-icon {
+              background-color: transparent;
+              padding: 0;
+              outline: none;
+              border: none;
+              cursor: pointer;
+
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+
+          }
         }
       }
     }
-
-    // .btn-container {
-    //   border: 1px solid blue;
-    // }
   }
 
   .venues-list {
     margin-top: 30px;
     // border: 1px solid blue;
   }
+
+  #venue-detail {
+    .modal-dialog {
+      .modal-content {
+        .modal-body {
+          // background-color: magenta;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
 }
