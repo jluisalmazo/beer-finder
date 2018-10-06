@@ -1,0 +1,14 @@
+<div class="venue-detail container">
+
+  <button (click)="sendMeHome()">Back</button>
+
+  <div class="content">
+    <div class="title"></div>
+    <div class="body"></div>
+    <div class="footer">
+      <share-buttons [theme]="'default'" [include]="['facebook','twitter','google','linkedin','pinterest','reddit','tumblr','whatsapp','messenger','telegram','vk','stumble','xing','sms','email','copy','print']"
+        [show]="5" [url]="urlString" [autoSetMeta]="false"></share-buttons>
+    </div>
+  </div>
+
+</div>

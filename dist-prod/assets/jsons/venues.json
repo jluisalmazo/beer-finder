@@ -1,0 +1,2886 @@
+{
+  "meta": {
+    "code": 200,
+    "requestId": "5bb7cbe64434b9406e6120a0"
+  },
+  "response": {
+    "venues": [{
+        "id": "4b2e85fdf964a520cee124e3",
+        "name": "Plaza de la Constitución (Zócalo)",
+        "contact": {},
+        "location": {
+          "address": "Plaza de la Constitución s/n",
+          "lat": 19.432669666667717,
+          "lng": -99.13367921774052,
+          "postalCode": "06060",
+          "cc": "MX",
+          "city": "Cuauhtemoc",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Plaza de la Constitución s/n",
+            "06060 Cuauhtemoc, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d164941735",
+          "name": "Plaza",
+          "pluralName": "Plazas",
+          "shortName": "Plaza",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 2,
+          "summary": "2 people are here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 2,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4e287117149554c77439a44d",
+        "name": "Centro Histórico",
+        "contact": {},
+        "location": {
+          "address": "Primer Cuadro de la Ciudad",
+          "lat": 19.433710834263326,
+          "lng": -99.13752168839888,
+          "postalCode": "06010",
+          "cc": "MX",
+          "neighborhood": "Centro, Ciudad de México, DF",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Primer Cuadro de la Ciudad",
+            "06010 Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d164941735",
+          "name": "Plaza",
+          "pluralName": "Plazas",
+          "shortName": "Plaza",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 3,
+          "summary": "3 people are here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 3,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4d7391ac5838a093f4c41adb",
+        "name": "Estadio de Béisbol Fray Nano",
+        "contact": {},
+        "location": {
+          "address": "Fernando Iglesias Calderón",
+          "crossStreet": "Eje 3 Sur Av. Morelos",
+          "lat": 19.410304715744434,
+          "lng": -99.10872713049133,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.410304715744434,
+            "lng": -99.10872713049133
+          }],
+          "postalCode": "15900",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Fernando Iglesias Calderón (Eje 3 Sur Av. Morelos)",
+            "15900 Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d18c941735",
+          "name": "Baseball Stadium",
+          "pluralName": "Baseball Stadiums",
+          "shortName": "Baseball",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_baseball_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4ea6acc59adf05b8d057dfca",
+        "name": "Bosque de Chapultepec",
+        "contact": {},
+        "location": {
+          "address": "Av. Paseo de la Reforma s/n",
+          "lat": 19.422720369606104,
+          "lng": -99.1808770972357,
+          "postalCode": "11100",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. Paseo de la Reforma s/n",
+            "11100 Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": true,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "venuePage": {
+          "id": "123993357"
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4ba28a24f964a5204d0238e3",
+        "name": "El Sope",
+        "contact": {},
+        "location": {
+          "address": "2da Sección de Chapultepec",
+          "lat": 19.416784249686156,
+          "lng": -99.20327214667842,
+          "cc": "MX",
+          "city": "Miguel Hidalgo",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "2da Sección de Chapultepec",
+            "Miguel Hidalgo, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d106941735",
+          "name": "Track",
+          "pluralName": "Tracks",
+          "shortName": "Track",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_track_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": true,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "venuePage": {
+          "id": "123993659"
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bdd891c645e0f47a2a76b19",
+        "name": "Torres de Satélite",
+        "contact": {},
+        "location": {
+          "address": "Blvd. Manuel Ávila Camacho (Periférico)",
+          "lat": 19.49840463256378,
+          "lng": -99.23683582059141,
+          "cc": "MX",
+          "city": "Naucalpan",
+          "state": "México",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Blvd. Manuel Ávila Camacho (Periférico)",
+            "Naucalpan, México",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d12d941735",
+          "name": "Monument / Landmark",
+          "pluralName": "Monuments / Landmarks",
+          "shortName": "Landmark",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_monument_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b54d09ff964a520cdcd27e3",
+        "name": "Parque España",
+        "contact": {},
+        "location": {
+          "address": "Av. Sonora",
+          "crossStreet": "Oaxaca",
+          "lat": 19.415499149001644,
+          "lng": -99.17108494259915,
+          "cc": "MX",
+          "city": "Cuauhtemoc",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. Sonora (Oaxaca)",
+            "Cuauhtemoc, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b0586fff964a5204e7a22e3",
+        "name": "Alameda Central",
+        "contact": {},
+        "location": {
+          "address": "Av. Juárez",
+          "crossStreet": "Entre Dr. Mora y Angela Peralta",
+          "lat": 19.435309910296112,
+          "lng": -99.1445748046943,
+          "postalCode": "06300",
+          "cc": "MX",
+          "city": "Cuauhtemoc",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. Juárez (Entre Dr. Mora y Angela Peralta)",
+            "06300 Cuauhtemoc, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d164941735",
+          "name": "Plaza",
+          "pluralName": "Plazas",
+          "shortName": "Plaza",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bcb5336b6c49c74eef39191",
+        "name": "Parque de los Venados",
+        "contact": {},
+        "location": {
+          "address": "División del Norte",
+          "crossStreet": "Eje 7 Sur Municipio Libre",
+          "lat": 19.371973448174224,
+          "lng": -99.15692601078017,
+          "cc": "MX",
+          "city": "Benito Juárez",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "División del Norte (Eje 7 Sur Municipio Libre)",
+            "Benito Juárez, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4cdc7e48fc973704e4ccd505",
+        "name": "Parque Arboledas",
+        "contact": {},
+        "location": {
+          "address": "Matías Romero",
+          "crossStreet": "Pestalozzi, Heriberto Frías y Pilares",
+          "lat": 19.379071454904135,
+          "lng": -99.16214273754808,
+          "postalCode": "03100",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Matías Romero (Pestalozzi, Heriberto Frías y Pilares)",
+            "03100 Benito Juárez, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b058700f964a520697a22e3",
+        "name": "Parque Luis G. Urbina (Parque Hundido)",
+        "contact": {},
+        "location": {
+          "address": "Insurgentes Sur 1179",
+          "crossStreet": "Av. Porfirio Diaz",
+          "lat": 19.379065639673524,
+          "lng": -99.17809775582177,
+          "postalCode": "03300",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Insurgentes Sur 1179 (Av. Porfirio Diaz)",
+            "03300 Benito Juárez, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5202eb61498e4828a7f986b5",
+        "name": "Sports World",
+        "contact": {},
+        "location": {
+          "address": "Felix Cuevas #374",
+          "crossStreet": "Adolfo Prieto y Moras",
+          "lat": 19.37247689865155,
+          "lng": -99.17291783926612,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.37247689865155,
+            "lng": -99.17291783926612
+          }],
+          "postalCode": "03100",
+          "cc": "MX",
+          "city": "Mexico , D.F",
+          "state": "CDMX",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Felix Cuevas #374 (Adolfo Prieto y Moras)",
+            "03100 Mexico , D.F, CDMX",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d175941735",
+          "name": "Gym / Fitness Center",
+          "pluralName": "Gyms or Fitness Centers",
+          "shortName": "Gym / Fitness",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 2,
+          "summary": "2 people are here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 2,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "513d2de7e4b099fed0e1cff1",
+        "name": "La Marquesa",
+        "contact": {},
+        "location": {
+          "address": "Carretera México - Toluca",
+          "lat": 19.299470508038983,
+          "lng": -99.38034143002974,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.299470508038983,
+            "lng": -99.38034143002974
+          }],
+          "cc": "MX",
+          "city": "La Marquesa",
+          "state": "México",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Carretera México - Toluca",
+            "La Marquesa, México",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "52e81612bcbc57f1066b7a23",
+          "name": "Forest",
+          "pluralName": "Forests",
+          "shortName": "Forest",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4f5dff96e4b036907262c513",
+        "name": "Andador Polanco",
+        "contact": {},
+        "location": {
+          "address": "Horacio",
+          "lat": 19.433572750917044,
+          "lng": -99.19152710003796,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.433572750917044,
+            "lng": -99.19152710003796
+          }],
+          "cc": "MX",
+          "city": "Miguel Hidalgo",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Horacio",
+            "Miguel Hidalgo, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "518e9cee498ea83b55a483c9",
+        "name": "Energy Fitness",
+        "contact": {},
+        "location": {
+          "address": "Horacio 203",
+          "crossStreet": "Sudermann",
+          "lat": 19.43343012682252,
+          "lng": -99.1842269897461,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.43343012682252,
+            "lng": -99.1842269897461
+          }],
+          "postalCode": "11220",
+          "cc": "MX",
+          "neighborhood": "Miguel Hidalgo",
+          "city": "Polanco V sección",
+          "state": "CDMX",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Horacio 203 (Sudermann)",
+            "11220 Polanco V sección, CDMX",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d176941735",
+          "name": "Gym",
+          "pluralName": "Gyms",
+          "shortName": "Gym",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": true,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 1,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5af49eee12f0a9002cd5ece4",
+        "name": "Smart Fit Félix Cuevas",
+        "contact": {},
+        "location": {
+          "address": "Av. Félix Cuevas Lote 1 Mz 36",
+          "crossStreet": "Oso",
+          "lat": 19.37349315721392,
+          "lng": -99.17812766132349,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.37349315721392,
+            "lng": -99.17812766132349
+          }],
+          "postalCode": "03100",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. Félix Cuevas Lote 1 Mz 36 (Oso)",
+            "03100 Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d175941735",
+          "name": "Gym / Fitness Center",
+          "pluralName": "Gyms or Fitness Centers",
+          "shortName": "Gym / Fitness",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 2,
+          "summary": "2 people are here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 2,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4c41d614520fa593a52fcaac",
+        "name": "Bosque de Tlalpan",
+        "contact": {},
+        "location": {
+          "address": "Camino a Santa Teresa s/n",
+          "crossStreet": "Esq. con Zacatépetl",
+          "lat": 19.29554074593849,
+          "lng": -99.19304460674194,
+          "postalCode": "14010",
+          "cc": "MX",
+          "city": "Tlalpan",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Camino a Santa Teresa s/n (Esq. con Zacatépetl)",
+            "14010 Tlalpan, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": true,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "venuePage": {
+          "id": "41546647"
+        },
+        "hereNow": {
+          "count": 2,
+          "summary": "2 people are here",
+          "groups": [{
+            "type": "others",
+            "name": "Other people here",
+            "count": 2,
+            "items": []
+          }]
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4cae5fce75ebb60c770bb4ad",
+        "name": "Parque La Bombilla",
+        "contact": {},
+        "location": {
+          "address": "Avenida de la Paz S/N",
+          "crossStreet": "at Insurgentes Sur",
+          "lat": 19.34754298650578,
+          "lng": -99.18709040859383,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.34754298650578,
+            "lng": -99.18709040859383
+          }],
+          "postalCode": "01000",
+          "cc": "MX",
+          "city": "Álvaro Obregón",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Avenida de la Paz S/N (at Insurgentes Sur)",
+            "01000 Álvaro Obregón, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bd58bd829eb9c74696d93e1",
+        "name": "Glorieta de Insurgentes",
+        "contact": {},
+        "location": {
+          "address": "Av. Insurgentes Sur",
+          "crossStreet": "Av. Chapultepec",
+          "lat": 19.423643262019798,
+          "lng": -99.1629320335473,
+          "cc": "MX",
+          "neighborhood": "Roma Norte",
+          "city": "Cuauhtemoc",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. Insurgentes Sur (Av. Chapultepec)",
+            "Cuauhtemoc, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d164941735",
+          "name": "Plaza",
+          "pluralName": "Plazas",
+          "shortName": "Plaza",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bcb7ab1cc8cd13a5282bfcf",
+        "name": "Viveros de Coyoacán",
+        "contact": {},
+        "location": {
+          "address": "Progreso s/n",
+          "crossStreet": "Esq. con Av. Universidad",
+          "lat": 19.353530909518163,
+          "lng": -99.17282051626687,
+          "postalCode": "04100",
+          "cc": "MX",
+          "city": "Coyoacán",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Progreso s/n (Esq. con Av. Universidad)",
+            "04100 Coyoacán, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4f4528bc4b90abdf24c9de85",
+          "name": "Athletics & Sports",
+          "pluralName": "Athletics & Sports",
+          "shortName": "Athletics & Sports",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/sports_outdoors_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4d40d05fc1d4721e8d2f14c7",
+        "name": "Fuente de Petróleos Mexicanos",
+        "contact": {},
+        "location": {
+          "address": "Blvd. Manuel Ávila Camacho",
+          "crossStreet": "Av. Paseo de la Reforma",
+          "lat": 19.427446720765026,
+          "lng": -99.20311376452446,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.427446720765026,
+            "lng": -99.20311376452446
+          }],
+          "postalCode": "11000",
+          "cc": "MX",
+          "city": "Miguel Hidalgo",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Blvd. Manuel Ávila Camacho (Av. Paseo de la Reforma)",
+            "11000 Miguel Hidalgo, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "56aa371be4b08b9a8d573547",
+          "name": "Fountain",
+          "pluralName": "Fountains",
+          "shortName": "Fountain",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "544023cc498e959fe8abc8ae",
+        "name": "Barranca del Muerto",
+        "contact": {},
+        "location": {
+          "lat": 19.361458384117878,
+          "lng": -99.18880391745063,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.361458384117878,
+            "lng": -99.18880391745063
+          }],
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d162941735",
+          "name": "Other Great Outdoors",
+          "pluralName": "Other Great Outdoors",
+          "shortName": "Other Outdoors",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/outdoors_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4c445e0574ffc928bf6975cc",
+        "name": "Secretaría de la Defensa Nacional",
+        "contact": {},
+        "location": {
+          "address": "Blvd. Manuel Ávila Camacho S/N",
+          "crossStreet": "Esq. con Av. Industria Militar",
+          "lat": 19.44016830877578,
+          "lng": -99.21619892120361,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.44016830877578,
+            "lng": -99.21619892120361
+          }],
+          "cc": "MX",
+          "city": "Miguel Hidalgo",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Blvd. Manuel Ávila Camacho S/N (Esq. con Av. Industria Militar)",
+            "Miguel Hidalgo, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d126941735",
+          "name": "Government Building",
+          "pluralName": "Government Buildings",
+          "shortName": "Government",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4e639e2e8877954de8b1628e",
+        "name": "Parque La Mexicana",
+        "contact": {},
+        "location": {
+          "address": "Paseo de los Arquitectos",
+          "crossStreet": "Av. Santa Fe",
+          "lat": 19.361113678020942,
+          "lng": -99.26638841629028,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.361113678020942,
+            "lng": -99.26638841629028
+          }],
+          "cc": "MX",
+          "city": "Álvaro Obregón",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Paseo de los Arquitectos (Av. Santa Fe)",
+            "Álvaro Obregón, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b6db7bff964a5204c892ce3",
+        "name": "Parque Lincoln",
+        "contact": {},
+        "location": {
+          "address": "Av. Emilio Castelar",
+          "crossStreet": "Esq. con Luis G. Urbina",
+          "lat": 19.429555039699654,
+          "lng": -99.19703722000122,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.429555039699654,
+            "lng": -99.19703722000122
+          }],
+          "postalCode": "11560",
+          "cc": "MX",
+          "city": "Miguel Hidalgo",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. Emilio Castelar (Esq. con Luis G. Urbina)",
+            "11560 Miguel Hidalgo, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5314d9b4e4b0e72a36d2ff5d",
+        "name": "Álvaro Obregón",
+        "contact": {},
+        "location": {
+          "lat": 19.37304947955718,
+          "lng": -99.19954010678693,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.37304947955718,
+            "lng": -99.19954010678693
+          }],
+          "postalCode": "01110",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "01110 Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "52e81612bcbc57f1066b7a38",
+          "name": "Town Hall",
+          "pluralName": "Town Halls",
+          "shortName": "Town Hall",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/cityhall_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4d0268693be26dcbf08478e4",
+        "name": "Bosque Real Country Club",
+        "contact": {},
+        "location": {
+          "address": "Av. Country Club",
+          "crossStreet": "Blvd. Bosque Real",
+          "lat": 19.423702881942017,
+          "lng": -99.29347772321185,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.423702881942017,
+            "lng": -99.29347772321185
+          }],
+          "cc": "MX",
+          "city": "Huixquilucan",
+          "state": "México",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. Country Club (Blvd. Bosque Real)",
+            "Huixquilucan, México",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1e6941735",
+          "name": "Golf Course",
+          "pluralName": "Golf Courses",
+          "shortName": "Golf Course",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/golfcourse_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": true,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b5626fef964a520bd0228e3",
+        "name": "Parque México",
+        "contact": {},
+        "location": {
+          "address": "Av. México s/n",
+          "crossStreet": "Entre Michoacán y Amsterdam",
+          "lat": 19.41154625365565,
+          "lng": -99.16945213186008,
+          "postalCode": "06100",
+          "cc": "MX",
+          "city": "Cuauhtemoc",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. México s/n (Entre Michoacán y Amsterdam)",
+            "06100 Cuauhtemoc, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": true,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "venuePage": {
+          "id": "93549018"
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "50f44bbde4b0232ee796fcef",
+        "name": "Distribuidor Vial",
+        "contact": {},
+        "location": {
+          "lat": 19.38476366455573,
+          "lng": -99.19083809496223,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.38476366455573,
+            "lng": -99.19083809496223
+          }],
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1df941735",
+          "name": "Bridge",
+          "pluralName": "Bridges",
+          "shortName": "Bridge",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4e2e10731495329632f737c8",
+        "name": "Tunel Santa Fe - Vista Hermosa",
+        "contact": {},
+        "location": {
+          "lat": 19.363694465033053,
+          "lng": -99.28019060221278,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.363694465033053,
+            "lng": -99.28019060221278
+          }],
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1df941735",
+          "name": "Bridge",
+          "pluralName": "Bridges",
+          "shortName": "Bridge",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4e090ee352b165b7d7b7b8ef",
+        "name": "Energy Fitness",
+        "contact": {},
+        "location": {
+          "address": "Dakota 95 WTC",
+          "crossStreet": "Arizona",
+          "lat": 19.395222513589047,
+          "lng": -99.1752211846932,
+          "postalCode": "03810",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Dakota 95 WTC (Arizona)",
+            "03810 Benito Juárez, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d175941735",
+          "name": "Gym / Fitness Center",
+          "pluralName": "Gyms or Fitness Centers",
+          "shortName": "Gym / Fitness",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": true,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5529d6e5498eaba11d75af92",
+        "name": "Bajopuente Palmas y Periférico",
+        "contact": {},
+        "location": {
+          "address": "Ferrocarril De Cuernavaca",
+          "crossStreet": "Anillo Periférico",
+          "lat": 19.431742883789166,
+          "lng": -99.2086920257473,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.431742883789166,
+            "lng": -99.2086920257473
+          }],
+          "cc": "MX",
+          "city": "Miguel Hidalgo",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Ferrocarril De Cuernavaca (Anillo Periférico)",
+            "Miguel Hidalgo, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1df941735",
+          "name": "Bridge",
+          "pluralName": "Bridges",
+          "shortName": "Bridge",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bf2c38b55c7c9b6a2776204",
+        "name": "Bosque de San Juan de Aragón",
+        "contact": {},
+        "location": {
+          "address": "San Juan de Aragón 4a Sección",
+          "lat": 19.460441871780866,
+          "lng": -99.0730333328247,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.460441871780866,
+            "lng": -99.0730333328247
+          }],
+          "postalCode": "57170",
+          "cc": "MX",
+          "city": "Gustavo A. Madero",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "San Juan de Aragón 4a Sección",
+            "57170 Gustavo A. Madero, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5553eb8d498e6bef7ac75b20",
+        "name": "Sports World Obrero Mundial",
+        "contact": {},
+        "location": {
+          "lat": 19.40203429890874,
+          "lng": -99.16002763339323,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.40203429890874,
+            "lng": -99.16002763339323
+          }],
+          "postalCode": "03000",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "03000 Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d175941735",
+          "name": "Gym / Fitness Center",
+          "pluralName": "Gyms or Fitness Centers",
+          "shortName": "Gym / Fitness",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "59de21d5a92d981196cedfe8",
+        "name": "Maldito Cruce Ejercito y Periferico",
+        "contact": {},
+        "location": {
+          "crossStreet": "Ejercito",
+          "lat": 19.438945603724726,
+          "lng": -99.21382902270985,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.438945603724726,
+            "lng": -99.21382902270985
+          }],
+          "postalCode": "11600",
+          "cc": "MX",
+          "city": "Ciudad de México",
+          "state": "CDMX",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Ejercito",
+            "11600 Ciudad de México, CDMX",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1df941735",
+          "name": "Bridge",
+          "pluralName": "Bridges",
+          "shortName": "Bridge",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4e029a4e814d160fdaf56526",
+        "name": "Glorieta Vasco de Quiroga",
+        "contact": {},
+        "location": {
+          "address": "Av. Vasco de Quiroga",
+          "crossStreet": "Javier Barros Sierra",
+          "lat": 19.3786796318581,
+          "lng": -99.248506128788,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.3786796318581,
+            "lng": -99.248506128788
+          }],
+          "postalCode": "01210",
+          "cc": "MX",
+          "city": "Álvaro Obregón",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. Vasco de Quiroga (Javier Barros Sierra)",
+            "01210 Álvaro Obregón, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d166941735",
+          "name": "Sculpture Garden",
+          "pluralName": "Sculpture Gardens",
+          "shortName": "Sculpture",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sculpture_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4ece4bb92c5bc35054842f50",
+        "name": "Plaza Revolución",
+        "contact": {},
+        "location": {
+          "lat": 19.439115198050956,
+          "lng": -99.15411202218503,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.439115198050956,
+            "lng": -99.15411202218503
+          }],
+          "cc": "MX",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d164941735",
+          "name": "Plaza",
+          "pluralName": "Plazas",
+          "shortName": "Plaza",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bde401c17fdef3b3d994e36",
+        "name": "Parque de los Periodistas Ilustres",
+        "contact": {},
+        "location": {
+          "address": "Fray Servando Teresa de Mier",
+          "crossStreet": "Cucurpe",
+          "lat": 19.42135671238209,
+          "lng": -99.11877585414753,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.42135671238209,
+            "lng": -99.11877585414753
+          }],
+          "postalCode": "15960",
+          "cc": "MX",
+          "city": "Venustiano Carranza",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Fray Servando Teresa de Mier (Cucurpe)",
+            "15960 Venustiano Carranza, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "50d9d530e4b0ca0ba5149e4c",
+        "name": "Parque Polanco-Reforma",
+        "contact": {},
+        "location": {
+          "lat": 19.426591009211492,
+          "lng": -99.19857737675406,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.426591009211492,
+            "lng": -99.19857737675406
+          }],
+          "cc": "MX",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1e5941735",
+          "name": "Dog Run",
+          "pluralName": "Dog Runs",
+          "shortName": "Dog Run",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/dogrun_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4beeb76135dc0f470025405b",
+        "name": "Lago Mayor",
+        "contact": {},
+        "location": {
+          "address": "2ª Sección del Bosque de Chapultepec",
+          "lat": 19.417475731896403,
+          "lng": -99.19955633267271,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.417475731896403,
+            "lng": -99.19955633267271
+          }],
+          "postalCode": "11870",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "2ª Sección del Bosque de Chapultepec",
+            "11870 Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d161941735",
+          "name": "Lake",
+          "pluralName": "Lakes",
+          "shortName": "Lake",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/lake_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5ae4bba58194fc002cf9a630",
+        "name": "Smart Fit Parque Delta",
+        "contact": {},
+        "location": {
+          "address": "Viaducto Presidente Miguel Aleman",
+          "crossStreet": "Cuauhtemoc",
+          "lat": 19.40351679476527,
+          "lng": -99.15338926467618,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.40351679476527,
+            "lng": -99.15338926467618
+          }],
+          "postalCode": "06780",
+          "cc": "MX",
+          "city": "Ciudad de México",
+          "state": "CDMX",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Viaducto Presidente Miguel Aleman (Cuauhtemoc)",
+            "06780 Ciudad de México, CDMX",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d176941735",
+          "name": "Gym",
+          "pluralName": "Gyms",
+          "shortName": "Gym",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "53ef3f0d498e12d72be89d03",
+        "name": "Benito Juarez",
+        "contact": {},
+        "location": {
+          "lat": 19.382381806853143,
+          "lng": -99.16235357612982,
+          "postalCode": "03100",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "03100 Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4f2a25ac4b909258e854f55f",
+          "name": "Neighborhood",
+          "pluralName": "Neighborhoods",
+          "shortName": "Neighborhood",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b8d0102f964a520f6e332e3",
+        "name": "Centro Deportivo \"18 de Marzo\"",
+        "contact": {},
+        "location": {
+          "address": "Insurgentes Norte",
+          "crossStreet": "Avenida Ricarte",
+          "lat": 19.483892572615897,
+          "lng": -99.1238279882978,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.483892572615897,
+            "lng": -99.1238279882978
+          }],
+          "postalCode": "07020",
+          "cc": "MX",
+          "city": "Gustavo A. Madero",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Insurgentes Norte (Avenida Ricarte)",
+            "07020 Gustavo A. Madero, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4f4528bc4b90abdf24c9de85",
+          "name": "Athletics & Sports",
+          "pluralName": "Athletics & Sports",
+          "shortName": "Athletics & Sports",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/sports_outdoors_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4e17665d1f6eb955986fc782",
+        "name": "Minería y Viaducto",
+        "contact": {},
+        "location": {
+          "address": "Minería",
+          "crossStreet": "Viaducto Miguel Alemán",
+          "lat": 19.399220926858078,
+          "lng": -99.17738941765259,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.399220926858078,
+            "lng": -99.17738941765259
+          }],
+          "cc": "MX",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Minería (Viaducto Miguel Alemán)",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1df941735",
+          "name": "Bridge",
+          "pluralName": "Bridges",
+          "shortName": "Bridge",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4c026e4af423a5932bbbce16",
+        "name": "Parque Alfonso Esparza Oteo",
+        "contact": {},
+        "location": {
+          "address": "Pennsylvania",
+          "crossStreet": "Alabama",
+          "lat": 19.389525770132753,
+          "lng": -99.17739482479051,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.389525770132753,
+            "lng": -99.17739482479051
+          }],
+          "postalCode": "03810",
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Pennsylvania (Alabama)",
+            "03810 Benito Juárez, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4f19e38fe4b0bf76279c715e",
+        "name": "Churubusco y eje 6",
+        "contact": {},
+        "location": {
+          "lat": 19.37317548958492,
+          "lng": -99.10634950486168,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.37317548958492,
+            "lng": -99.10634950486168
+          }],
+          "cc": "MX",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1df941735",
+          "name": "Bridge",
+          "pluralName": "Bridges",
+          "shortName": "Bridge",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4e4196a4e4cd70ece2ade827",
+        "name": "Jardín Pushkin",
+        "contact": {},
+        "location": {
+          "address": "Cuauhtémoc",
+          "crossStreet": "Morelia",
+          "lat": 19.4200335192668,
+          "lng": -99.15428263844603,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.4200335192668,
+            "lng": -99.15428263844603
+          }],
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Cuauhtémoc (Morelia)",
+            "Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4f14d6c9e4b0042057cec154",
+        "name": "Viaducto-Tacubaya",
+        "contact": {},
+        "location": {
+          "lat": 19.399802614150342,
+          "lng": -99.18901560516329,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.399802614150342,
+            "lng": -99.18901560516329
+          }],
+          "cc": "MX",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Mexico City, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1df941735",
+          "name": "Bridge",
+          "pluralName": "Bridges",
+          "shortName": "Bridge",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bf2c3421cd9d13af505ee76",
+        "name": "Deportivo Oceania",
+        "contact": {},
+        "location": {
+          "address": "Av. Oceanía",
+          "crossStreet": "Hangares",
+          "lat": 19.448868472081937,
+          "lng": -99.08136759889244,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.448868472081937,
+            "lng": -99.08136759889244
+          }],
+          "cc": "MX",
+          "city": "Gustavo A. Madero",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Av. Oceanía (Hangares)",
+            "Gustavo A. Madero, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "51518d07e4b07f52770994a2",
+        "name": "Pista Para Correr Viveros De Coyoacán",
+        "contact": {},
+        "location": {
+          "lat": 19.353638425611678,
+          "lng": -99.16904663765486,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 19.353638425611678,
+            "lng": -99.16904663765486
+          }],
+          "cc": "MX",
+          "neighborhood": "Coyoacán",
+          "city": "Coyoacán",
+          "state": "Mexico City",
+          "country": "Mexico",
+          "formattedAddress": [
+            "Coyoacán, Mexico City",
+            "Mexico"
+          ]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d106941735",
+          "name": "Track",
+          "pluralName": "Tracks",
+          "shortName": "Track",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_track_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "verified": false,
+        "stats": {
+          "tipCount": 0,
+          "usersCount": 0,
+          "checkinsCount": 0,
+          "visitsCount": 0
+        },
+        "beenHere": {
+          "count": 0,
+          "lastCheckinExpiredAt": 0,
+          "marked": false,
+          "unconfirmedCount": 0
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1538771942",
+        "venueChains": [],
+        "hasPerk": false
+      }
+    ],
+    "confident": true,
+    "geocode": {
+      "what": "",
+      "where": "mexico city",
+      "feature": {
+        "cc": "MX",
+        "name": "Mexico City",
+        "displayName": "Mexico City, DF, Mexico",
+        "matchedName": "Mexico City, DF, Mexico",
+        "highlightedName": "<b>Mexico City</b>, DF, Mexico",
+        "woeType": 7,
+        "slug": "mexico-city",
+        "id": "geonameid:3530597",
+        "longId": "72057594041458533",
+        "geometry": {
+          "center": {
+            "lat": 19.42847,
+            "lng": -99.12766
+          },
+          "bounds": {
+            "ne": {
+              "lat": 19.515304989460464,
+              "lng": -99.05579900650167
+            },
+            "sw": {
+              "lat": 19.356858007471764,
+              "lng": -99.25983899084375
+            }
+          }
+        }
+      },
+      "parents": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import '~sass/styles';
+
+:host {
+  display: block;
+  border: 1px solid magenta;
+
+  .venue-detail {
+      border: 1px solid brown;
+    .content {
+      .body {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

@@ -1,22 +1,31 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import { HttpRequestsService } from './services/http-requests.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
+import { ShareButtonsModule } from '@ngx-share/buttons';
+import { VenueDetailComponent } from './venue-detail/venue-detail.component';
+import { VenuesListComponent } from './venues-list/venues-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VenueDetailComponent,
+    VenuesListComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
+    AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,      // (Required) for share counts
+    HttpClientJsonpModule,  // (Optional) Add if you want tumblr share counts
+    ShareButtonsModule.forRoot()
   ],
   providers: [
-    HttpRequestsService,
+    HttpRequestsService
   ],
   bootstrap: [AppComponent],
 })

@@ -6,6 +6,8 @@
 @import "~bootstrap/scss/print";
 @import "~bootstrap/scss/reboot";
 @import "~bootstrap/scss/grid";
+@import '~@ngx-share/button/styles/share-buttons';
+@import '~@ngx-share/button/styles/themes/default/default-theme';
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
