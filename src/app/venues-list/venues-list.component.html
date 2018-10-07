@@ -1,6 +1,6 @@
 <div class="header">
   <div class="container">
-    <div class="logo" routerLink="">Search for great places everywhere!</div>
+    <div class="logo" routerLink=""><img src="assets/icons/place-marker.svg">Search for great places everywhere!</div>
     <div class="search-box">
       <form novalidate [formGroup]="frmSearchOptions" (ngSubmit)="searchVenues()">
         <div class="form-group">
@@ -10,21 +10,16 @@
               {{ category.name }}
             </option>
           </select>
-          <!-- <div> -->
-            <input type="text" autocorrect="off" autocapitalize="off" spellcheck="off" formControlName="place" class="form-control" placeholder="Where?" #searchPlace>
-            <!-- <div *ngIf="frmSearchOptions.get('place').touched && frmSearchOptions.get('place').invalid" class="input-alert">
-              <div *ngIf="frmSearchOptions.get('place').hasError('required')">
-                Please, provide a location where to search for places.
-              </div>
-            </div> -->
-          <!-- </div> -->
-          <!-- <button type="submit" class="btn-icon" [disabled]="frmSearchOptions.invalid"> -->
-          <button type="submit" class="btn-icon">
-            <img src="assets/icons/magnifying-glass.svg" title="Search for places in the location indicated">
-          </button>
-          <button type="button" class="btn-icon" (click)="searchInCurrentLocation()">
-            <img src="assets/icons/current-location.svg" title="Search for places in current location">
-          </button>
+          <input type="text" autocorrect="off" autocapitalize="off" spellcheck="off" formControlName="place" class="form-control"
+            placeholder="Where?" #searchPlace>
+          <div>
+            <button type="submit" class="btn-icon">
+              <img src="assets/icons/magnifying-glass.svg" title="Search for places in the indicated location">
+            </button>
+            <button type="button" class="btn-icon" (click)="searchInCurrentLocation()">
+              <img src="assets/icons/current-location.svg" title="Search for places in your current location">
+            </button>
+          </div>
         </div>
       </form>
     </div>
@@ -37,10 +32,17 @@
   <table class="table">
     <tr *ngFor="let venue of venues">
       <td class="venue">
-        <!-- <div class="name" routerLink="venueDetail/{{ venue.id }}">{{ venue.name }}</div> -->
-        <div class="name" (click)="showVenueDetail(venue.id)">{{ venue.name }}</div>
-        <div class="address">{{ venue.location.formattedAddress}}</div>
-        <div class="categories"><span *ngFor="let venueCategory of venue.categories">{{ venueCategory.name }}</span></div>
+        <div class="row">
+          <div class="col-sm-12 col-md-8 col-lg-10">
+            <!-- <div class="name" routerLink="venueDetail/{{ venue.id }}">{{ venue.name }}</div> -->
+            <div class="name" (click)="showVenueDetail(venue.id)">{{ venue.name }}</div>
+            <div class="address">{{ venue.location.formattedAddress}}</div>
+            <div class="categories"><span *ngFor="let venueCategory of venue.categories">{{ venueCategory.name }}</span></div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-2">
+            <img class="main-photo" src="assets/image.svg" (click)="showVenueDetail(venue.id)" title="Here would be the best image of the venue, but Foursquare API allows only 50 photo requests per day for public key, and I don't want the message 'quota exceeded' appears. :S">
+          </div>
+        </div>
       </td>
     </tr>
   </table>

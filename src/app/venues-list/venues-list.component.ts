@@ -81,9 +81,6 @@ export class VenuesListComponent implements OnInit {
    */
   initAutocomplete() {
 
-    // Set default position for autocomplete (current user's location).
-    //this.setCurrentPosition();
-
     // Load places autocomplete
     this.mapsAPILoader.load().then(() => {
 
@@ -108,10 +105,6 @@ export class VenuesListComponent implements OnInit {
           //get the place result
           let place: google.maps.places.PlaceResult = autocomplete.getPlace();
 
-          console.log("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-          console.log(place);
-          console.log("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-
           //verify result
           if (place.geometry === undefined || place.geometry === null) {
             return;
@@ -126,21 +119,6 @@ export class VenuesListComponent implements OnInit {
 
     });
   }
-
-  /**
-   * Get the user's current position and get the latitude and longitude values.
-   */
-  // private setCurrentPosition() {
-  //   if ("geolocation" in navigator) {
-  //     navigator.geolocation.getCurrentPosition((position) => {
-  //       this.latitude = position.coords.latitude;
-  //       this.longitude = position.coords.longitude;
-  //       this.zoom = 12;
-  //     });
-  //   } else {
-  //     alert("Geolocation not supported by this browser.");
-  //   }
-  // }
 
   /**
    * Get the user's current position and search for venues around.
@@ -202,25 +180,12 @@ export class VenuesListComponent implements OnInit {
 
     } else {
 
-      console.log("///////////////////////////////////////");
-      console.log(this.frmSearchOptions);
-      console.log("///////////////////////////////////////");
-
       this.message = '';
 
       let category = this.frmSearchOptions.value.category;
       let place = this.frmSearchOptions.value.place;
 
-      // alert("searching venues in: " + place);
-      // alert(this.userCoords);
-
       let apiSearchVenuesURL = 'https://api.foursquare.com/v2/venues/search?' + environment.client_id + '&' + environment.client_secret + '&' + environment.version;
-
-      // if ((place != null) && (place != '')) {
-      //   apiSearchVenuesURL += '&near=' + place;
-      // } else {
-      //   apiSearchVenuesURL += '&ll=' + this.userCoords;
-      // }
 
       if (category != null) {
         apiSearchVenuesURL += '&categoryId=' + category;
@@ -228,8 +193,8 @@ export class VenuesListComponent implements OnInit {
 
       apiSearchVenuesURL += '&ll=' + this.latitude + ',' + this.longitude;
 
-      this.httpRequestsService.sendGetRequest(apiSearchVenuesURL + '&limit=50').subscribe(
-        // this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/venues.json").subscribe(
+      // this.httpRequestsService.sendGetRequest(apiSearchVenuesURL + '&limit=50').subscribe(
+      this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/venues.json").subscribe(
 
         res => {
           console.log(res);
