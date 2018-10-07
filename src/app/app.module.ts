@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { ShareButtonsModule } from '@ngx-share/buttons';
 import { VenueDetailComponent } from './venue-detail/venue-detail.component';
 import { VenuesListComponent } from './venues-list/venues-list.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,10 @@ import { VenuesListComponent } from './venues-list/venues-list.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBXfmeLOz_du9dnoN3XvvPs2LA9etT2UPk',
+      libraries: ['places']
+    }),
     HttpClientModule,      // (Required) for share counts
     HttpClientJsonpModule,  // (Optional) Add if you want tumblr share counts
     ShareButtonsModule.forRoot()
