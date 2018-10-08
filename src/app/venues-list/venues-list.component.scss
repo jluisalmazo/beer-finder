@@ -72,6 +72,8 @@
     }
   }
 
+  /* Styles for list of venues */
+
   .venues-list {
     padding-top: 150px;
     min-height: 100vh;
@@ -115,33 +117,92 @@
       .categories {
         font-size: get-rem(_12px);
         font-weight: normal;
-        color: get-color(primary-color-3);
+        color: get-color(secondary-color-1);
         margin-bottom: 20px;
       }
 
       .main-photo {
         width: 100%;
         height: auto;
+        cursor: pointer;
+        outline: none;
       }
 
     }
 
   }
+
+  /* Styles for a venue detail */
 
   #venue-detail {
     .modal-dialog {
       .modal-content {
-        .modal-body {
-          // background-color: magenta;
-
-          img {
-            width: 100%;
-            height: auto;
+        .modal-header {
+          .modal-title {
+            font-size: get-rem(_28px);
+            font-weight: normal;
+            color: get-color(primary-color-1);
           }
+
+        }
+
+        .modal-body {
+
+          & ::ng-deep {
+
+            .address {
+              font-size: get-rem(_16px);
+              font-weight: normal;
+              color: get-color(primary-color-4);
+              margin-bottom: 20px;
+            }
+
+            .categories {
+              font-size: get-rem(_12px);
+              font-weight: normal;
+              color: get-color(secondary-color-1);
+              margin-bottom: 20px;
+            }
+
+            .likes {
+              font-size: get-rem(_12px);
+              font-weight: normal;
+              color: get-color(primary-color-4);
+              margin-bottom: 20px;
+
+              .count {
+                margin-right: 8px;
+                color: get-color(primary-color-3);
+              }
+
+              .icon {
+                width: 15px;
+                height: auto;
+              }
+            }
+
+            img {
+              max-width: 100%;
+              height: auto;
+            }
+
+            .tips {
+              margin-top: 20px;
+              font-size: get-rem(_16px);
+              font-weight: normal;
+              color: get-color(primary-color-4);
+            }
+          }
+        }
+
+        .social-media-buttons {
+          padding: 1rem;
         }
       }
     }
   }
+
+  /* Responsive styles */
 
   @include media-breakpoint-between(md, lg) {
 

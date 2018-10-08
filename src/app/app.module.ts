@@ -26,7 +26,7 @@ import { AgmCoreModule } from '@agm/core';
       libraries: ['places']
     }),
     HttpClientModule,      // (Required) for share counts
-    HttpClientJsonpModule,  // (Optional) Add if you want tumblr share counts
+    HttpClientJsonpModule,  // (Optional) for tumblr share counts
     ShareButtonsModule.forRoot()
   ],
   providers: [

@@ -3,10 +3,8 @@ $color-palette: (
   primary-color-2: rgb(255, 255, 255),
   primary-color-3: rgb(0, 0, 0),
   primary-color-4: rgb(111, 119, 121),
-  primary-color-5: rgb(204, 204, 204)
-  // secondary-color-1: rgb(51, 89, 178)
-  //secondary-color-1: rgb(60, 86, 226)
-  //secondary-color-1: rgb(34, 139, 251)
+  primary-color-5: rgb(204, 204, 204),
+  secondary-color-1: rgb(0, 153, 51)
 );
 
 @function get-color($color-name, $alpha: 1) {
@@ -22,8 +20,8 @@ $font-rem-sizes: (
   _20px: 1.25rem,
   _22px: 1.375rem,
   _24px: 1.5rem,
-  _26px: 1.625rem
-  // _28px: 1.75rem
+  _26px: 1.625rem,
+  _28px: 1.75rem
 );
 
 @function get-rem($pixels) {

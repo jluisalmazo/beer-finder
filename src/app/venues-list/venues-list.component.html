@@ -34,6 +34,7 @@
       <td class="venue">
         <div class="row">
           <div class="col-sm-12 col-md-8 col-lg-10">
+            <!-- Another possibility is showing the details in a new page but I prefer the modal. -->
             <!-- <div class="name" routerLink="venueDetail/{{ venue.id }}">{{ venue.name }}</div> -->
             <div class="name" (click)="showVenueDetail(venue.id)">{{ venue.name }}</div>
             <div class="address">{{ venue.location.formattedAddress}}</div>
@@ -59,12 +60,26 @@
       </div>
       <div class="modal-body">
       </div>
+      <!-- <agm-map [latitude]="latitude" [longitude]="longitude">
+        <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+      </agm-map> -->
+      <!-- <div id="carousel-photos" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner"></div>
+        <a class="carousel-control-prev" href="#carousel-photos" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-photos" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> -->
       <div class="social-media-buttons">
         <share-buttons [theme]="'default'" [include]="['facebook','twitter','google','linkedin','pinterest','reddit','tumblr','whatsapp','messenger','telegram','vk','stumble','xing','sms','email','copy','print']"
           [show]="5" [url]="this.venueDetailURL" [autoSetMeta]="false"></share-buttons>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

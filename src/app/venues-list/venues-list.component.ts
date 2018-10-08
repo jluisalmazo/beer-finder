@@ -10,6 +10,7 @@ import { MapsAPILoader } from '@agm/core';
 import { } from '@types/googlemaps';
 import * as $ from 'jquery';
 import 'bootstrap/js/dist/modal';
+//import 'bootstrap/js/dist/carousel';
 
 @Component({
   selector: 'app-venues-list',
@@ -142,10 +143,11 @@ export class VenuesListComponent implements OnInit {
    */
   getCategories() {
 
-    // let apiCategoriesURL = 'https://api.foursquare.com/v2/venues/categories?' + environment.client_id + '&' + environment.client_secret + '&' + environment.version;
+    let apiCategoriesURL = 'https://api.foursquare.com/v2/venues/categories?' + environment.client_id + '&' + environment.client_secret + '&' + environment.version;
 
-    // this.httpRequestsService.sendGetRequest(apiCategoriesURL).subscribe(
-    this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/categories.json").subscribe(
+    // Uncomment this line and comment the nextone if you want to test in localhost calling a json file.
+    //this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/categories.json").subscribe(
+    this.httpRequestsService.sendGetRequest(apiCategoriesURL).subscribe(
       res => {
         console.log(res);
         this.categories = res['response']['categories'];
@@ -193,8 +195,9 @@ export class VenuesListComponent implements OnInit {
 
       apiSearchVenuesURL += '&ll=' + this.latitude + ',' + this.longitude;
 
-      // this.httpRequestsService.sendGetRequest(apiSearchVenuesURL + '&limit=50').subscribe(
-      this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/venues.json").subscribe(
+      // Uncomment this line and comment the nextone if you want to test in localhost calling a json file.
+      // this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/venues.json").subscribe(
+      this.httpRequestsService.sendGetRequest(apiSearchVenuesURL + '&limit=50').subscribe(
 
         res => {
           console.log(res);
@@ -235,26 +238,80 @@ export class VenuesListComponent implements OnInit {
 
     let apiGetVenueDetailURL = 'https://api.foursquare.com/v2/venues/' + venueId + '?' + environment.client_id + '&' + environment.client_secret + '&' + environment.version;
 
-    // this.httpRequestsService.sendGetRequest(apiGetVenueDetailURL).subscribe(
-    this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/venueDetail.json").subscribe(
-
+    // Uncomment this line and comment the nextone if you want to test in localhost calling a json file.
+    // this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/venueDetail.json").subscribe(
+    this.httpRequestsService.sendGetRequest(apiGetVenueDetailURL).subscribe(
+    
       res => {
         console.log(res);
 
         let venueName = res['response']['venue']['name'];
-        let venueFormattedAddress = res['response']['venue']['location']['formattedAddress'];
-        let venueBestPhoto = res['response']['venue']['bestPhoto'];
-        let venueBestPhotoURL = venueBestPhoto['prefix'] + 'original' + venueBestPhoto['suffix'];
+        let venueLikes = res['response']['venue']['likes']['count'];
+        
+        let venueFormattedAddressArray = res['response']['venue']['location']['formattedAddress'];
+        let venueFormattedAddress = '';
+        for (let formattedAddress of venueFormattedAddressArray) {
+          venueFormattedAddress += formattedAddress + '<br>';
+        }
 
-        let $venueBestPhotoElement = $("<img>").attr("src", venueBestPhotoURL);
+        let venuCategoriesArray = res['response']['venue']['categories'];
+        let venueCategories = '';
+        for (let category of venuCategoriesArray) {
+          venueCategories += category['shortName'] + ', ';
+        }
+        venueCategories = venueCategories.substring(0, venueCategories.length - 2); // Removes the last comma  
+        
+        let venueTipsGroupsArray = res['response']['venue']['tips']['groups'];
+        let venueTips = '';
+        for (let group of venueTipsGroupsArray) {
+          for(let tip of group['items']){
+            venueTips += tip['text'] + '<br><br>';
+          }
+        }
 
-        // this.venueDetailURL = location.hostname + '/venueDetail/' + venueId;
-        // this.venueDetailURL = 'https://blogs.cisco.com/enterprise/intent-based-networking-a-platform-designed-for-change'; //Para pruebas.
-        this.venueDetailURL = 'http://poettier.com/venueDetail/' + venueId; //A la hora de enviarla hay que comentarla y descomentar la primera.
+        // Right now I only shows the first photo.
+        let venuePhotosGroupsArray = res['response']['venue']['photos']['groups'];
+        let venueFirstPhotoURL = '';
+        for (let group of venuePhotosGroupsArray) {
+          for(let photo of group['items']){
+            if((photo['prefix'] != undefined && photo['prefix'] != null) && (photo['suffix'] != undefined && photo['suffix'] != null)) {
+              if(venueFirstPhotoURL == ''){
+                venueFirstPhotoURL = photo['prefix'] + 'original' + photo['suffix'];
+              }
+            }
+          }
+        }
 
+        // I first wanted to show the best photo, but many venues don't have assigned one.
+        // let venueBestPhoto = res['response']['venue']['bestPhoto'];
+        // let venueBestPhotoURL = venueBestPhoto['prefix'] + 'original' + venueBestPhoto['suffix'];
+        // let $venueBestPhotoElement = $("<img>").attr("src", venueBestPhotoURL);
+
+        // Creates the elements to be appended
+        let $venueFormattedAddressElement = $("<div>").addClass("address").append(venueFormattedAddress);
+        let $venueCategoriesElement = $("<div>").addClass("categories").append(venueCategories);
+        let $venueLikesElement = $("<div>").addClass("likes").append("Likes: ").append($("<span>").addClass("count").append(venueLikes)).append($("<img>").addClass("icon").attr("src", "assets/icons/heart.svg"));
+        let $venueBestPhotoElement = $("<img>").attr("src", venueFirstPhotoURL);
+        let $venueTipsElement = $("<div>").addClass("tips").append(venueTips);
+
+        // Assigns the URL to be shared on social media.
+        let hostname = location.href;
+        if(location.pathname != '/'){
+          hostname = hostname.replace(location.pathname, '');
+        }        
+        if(hostname.endsWith("/")){
+          hostname = hostname.substring(0, hostname.length - 1);
+        }
+        this.venueDetailURL = hostname + '/venueDetail/' + venueId;
+ 
         $("#venue-detail .modal-title").html(venueName);
-        $("#venue-detail .modal-body").html(venueFormattedAddress).append($venueBestPhotoElement);
+        $("#venue-detail .modal-body").html($venueFormattedAddressElement).append($venueCategoriesElement).append($venueLikesElement).append($venueBestPhotoElement).append($venueTipsElement);
         $("#venue-detail").modal('show');
+
+        // Later on, I want to include a carousel with all images available in the api for this venue.
+        // let $carouselItem = $("<div>").addClass("carousel-item").append($("<img>").addClass("d-block w-100").attr("src", venueBestPhotoURL));
+        // $("#venue-detail .carousel .carousel-inner").append($carouselItem);
+        // $('#venue-detail .carousel').carousel();
 
       },
       (err: HttpErrorResponse) => {
