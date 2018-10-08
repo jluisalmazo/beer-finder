@@ -10,7 +10,6 @@ import { MapsAPILoader } from '@agm/core';
 import { } from '@types/googlemaps';
 import * as $ from 'jquery';
 import 'bootstrap/js/dist/modal';
-//import 'bootstrap/js/dist/carousel';
 
 @Component({
   selector: 'app-venues-list',
@@ -88,18 +87,6 @@ export class VenuesListComponent implements OnInit {
       let autocomplete = new google.maps.places.Autocomplete(this.searchPlaceElementRef.nativeElement, {
         types: []
       });
-
-      // let geocoder = new google.maps.Geocoder;
-      // let latlng = {lat: this.latitude, lng: this.longitude};
-      // geocoder.geocode({'location': latlng}, function(results) {
-      //     if (results[0]) {
-      //       this.zoom = 8;
-      //       this.currentLocation = results[0].formatted_address;
-      //       console.log(results[0].address_components[4].long_name);
-      //     } else {
-      //       console.log('No results found');
-      //     }
-      // });
 
       autocomplete.addListener("place_changed", () => {
         this.ngZone.run(() => {
@@ -286,11 +273,6 @@ export class VenuesListComponent implements OnInit {
           }
         }
 
-        // I first wanted to show the best photo, but many venues don't have assigned one.
-        // let venueBestPhoto = res['response']['venue']['bestPhoto'];
-        // let venueBestPhotoURL = venueBestPhoto['prefix'] + 'original' + venueBestPhoto['suffix'];
-        // let $venueBestPhotoElement = $("<img>").attr("src", venueBestPhotoURL);
-
         // Creates the elements to be appended
         let $venueFormattedAddressElement = $("<div>").addClass("address").append(venueFormattedAddress);
         let $venueCategoriesElement = $("<div>").addClass("categories").append(venueCategories);
@@ -311,11 +293,6 @@ export class VenuesListComponent implements OnInit {
         $("#venue-detail .modal-title").html(venueName);
         $("#venue-detail .modal-body").html($venueFormattedAddressElement).append($venueCategoriesElement).append($venueLikesElement).append($venueBestPhotoElement).append($venueTipsElement);
         $("#venue-detail").modal('show');
-
-        // Later on, I want to include a carousel with all images available in the api for this venue.
-        // let $carouselItem = $("<div>").addClass("carousel-item").append($("<img>").addClass("d-block w-100").attr("src", venueBestPhotoURL));
-        // $("#venue-detail .carousel .carousel-inner").append($carouselItem);
-        // $('#venue-detail .carousel').carousel();
 
       },
       (err: HttpErrorResponse) => {
