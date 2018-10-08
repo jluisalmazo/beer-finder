@@ -1,6 +1,6 @@
 <div class="header">
   <div class="container">
-    <div class="logo" routerLink=""><img src="assets/icons/place-marker.svg">Search for great places everywhere!</div>
+    <div class="logo" routerLink="" (click)="gotoHome()"><img src="assets/icons/place-marker.svg">Search for great places everywhere!</div>
     <div class="search-box">
       <form novalidate [formGroup]="frmSearchOptions" (ngSubmit)="searchVenues()">
         <div class="form-group">
@@ -26,8 +26,9 @@
   </div>
 </div>
 
-<div class="venues-list container" [ngClass]="{ bordered : !showCover }">
+<div class="venues-list container" [ngClass]="{ bordered : (!showCover && !loading) }">
   <div class="cover" *ngIf="showCover"><img src="assets/map-with-markers.svg"></div>
+  <div class="loading" *ngIf="loading"><img src="assets/loading.gif"></div>
   <div class="messages">{{ message }}</div>
   <table class="table">
     <tr *ngFor="let venue of venues">

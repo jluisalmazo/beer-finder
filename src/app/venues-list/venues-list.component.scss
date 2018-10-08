@@ -96,6 +96,19 @@
       }
     }
 
+    .loading {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-items: center;
+      min-height: calc(100vh - 150px);
+
+      img {
+        width: 200px;
+        height: auto;
+      }
+    }
+
     .venue {
 
       .name {

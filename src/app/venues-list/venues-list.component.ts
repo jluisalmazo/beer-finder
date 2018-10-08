@@ -34,10 +34,10 @@ export class VenuesListComponent implements OnInit {
   public frmSearchOptions: FormGroup;
   public message = '';
   public userCoords = '';
-  public showCover = true;
   public venueId = '';
   public venueDetailURL = '';
-
+  public showCover = true;
+  public loading = false;
 
   constructor(private fb: FormBuilder, public httpRequestsService: HttpRequestsService, private router: Router, private route: ActivatedRoute, public share: ShareButtons, private mapsAPILoader: MapsAPILoader, private ngZone: NgZone) {
 
@@ -125,6 +125,9 @@ export class VenuesListComponent implements OnInit {
    * Get the user's current position and search for venues around.
    */
   searchInCurrentLocation() {
+
+    this.showLoading();
+
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition((position) => {
         this.latitude = position.coords.latitude;
@@ -182,10 +185,10 @@ export class VenuesListComponent implements OnInit {
 
     } else {
 
-      this.message = '';
+      this.showLoading();
 
+      this.message = '';
       let category = this.frmSearchOptions.value.category;
-      let place = this.frmSearchOptions.value.place;
 
       let apiSearchVenuesURL = 'https://api.foursquare.com/v2/venues/search?' + environment.client_id + '&' + environment.client_secret + '&' + environment.version;
 
@@ -208,6 +211,7 @@ export class VenuesListComponent implements OnInit {
           // localStorage.setItem("venues", JSON.stringify(this.venues));
 
           this.showCover = false;
+          this.loading = false;
         },
         (err: HttpErrorResponse) => {
 
@@ -239,7 +243,7 @@ export class VenuesListComponent implements OnInit {
     let apiGetVenueDetailURL = 'https://api.foursquare.com/v2/venues/' + venueId + '?' + environment.client_id + '&' + environment.client_secret + '&' + environment.version;
 
     // Uncomment this line and comment the nextone if you want to test in localhost calling a json file.
-    // this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/venueDetail.json").subscribe(
+    //this.httpRequestsService.sendGetRequest("http://localhost:4200/assets/jsons/venueDetail.json").subscribe(
     this.httpRequestsService.sendGetRequest(apiGetVenueDetailURL).subscribe(
     
       res => {
@@ -331,6 +335,17 @@ export class VenuesListComponent implements OnInit {
       }
     );
 
+  }
+
+  showLoading() {
+    this.showCover = false;
+    this.loading = true;
+  }
+
+  gotoHome() {
+
+    this.showCover=true;
+    this.venues=[];   
   }
 
 }
