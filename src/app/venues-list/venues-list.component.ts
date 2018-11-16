@@ -1,3 +1,4 @@
+/// <reference types="@types/googlemaps" />
 import { Component, OnInit, ViewChild, ElementRef, NgZone } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
@@ -5,9 +6,10 @@ import { HttpRequestsService } from '../services/http-requests.service';
 import { HttpErrorResponse } from '@angular/common/http';
 import { environment } from '../../environments/environment';
 import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
-import { ShareButtons } from '@ngx-share/core';
+// import { ShareButtons } from '@ngx-share/core';
 import { MapsAPILoader } from '@agm/core';
-import { } from '@types/googlemaps';
+// import { } from '@types/googlemaps';
+
 import * as $ from 'jquery';
 import 'bootstrap/js/dist/modal';
 
@@ -38,7 +40,8 @@ export class VenuesListComponent implements OnInit {
   public showCover = true;
   public loading = false;
 
-  constructor(private fb: FormBuilder, public httpRequestsService: HttpRequestsService, private router: Router, private route: ActivatedRoute, public share: ShareButtons, private mapsAPILoader: MapsAPILoader, private ngZone: NgZone) {
+  // constructor(private fb: FormBuilder, public httpRequestsService: HttpRequestsService, private router: Router, private route: ActivatedRoute, public share: ShareButtons, private mapsAPILoader: MapsAPILoader, private ngZone: NgZone) {
+  constructor(private fb: FormBuilder, public httpRequestsService: HttpRequestsService, private router: Router, private route: ActivatedRoute, private mapsAPILoader: MapsAPILoader, private ngZone: NgZone) {
 
     /* Declare the search options form (to search for venues) and its controls */
     this.frmSearchOptions = fb.group({

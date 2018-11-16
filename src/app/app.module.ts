@@ -5,7 +5,7 @@ import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import { HttpRequestsService } from './services/http-requests.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { ShareButtonsModule } from '@ngx-share/buttons';
+// import { ShareButtonsModule } from '@ngx-share/buttons';
 import { VenueDetailComponent } from './venue-detail/venue-detail.component';
 import { VenuesListComponent } from './venues-list/venues-list.component';
 import { AgmCoreModule } from '@agm/core';
@@ -27,7 +27,7 @@ import { AgmCoreModule } from '@agm/core';
     }),
     HttpClientModule,      // (Required) for share counts
     HttpClientJsonpModule,  // (Optional) for tumblr share counts
-    ShareButtonsModule.forRoot()
+    // ShareButtonsModule.forRoot()
   ],
   providers: [
     HttpRequestsService

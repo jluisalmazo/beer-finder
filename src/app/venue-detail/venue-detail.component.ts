@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
 import { HttpRequestsService } from '../services/http-requests.service';
 import { HttpErrorResponse } from '@angular/common/http';
-import { ShareButtons } from '@ngx-share/core';
+// import { ShareButtons } from '@ngx-share/core';
 import * as $ from 'jquery';
 
 @Component({
@@ -17,7 +17,8 @@ export class VenueDetailComponent implements OnInit {
   urlString = location.href;
 
 
-  constructor(private route: ActivatedRoute, private router: Router, public readonly httpRequestsService: HttpRequestsService, public readonly share: ShareButtons) { 
+  // constructor(private route: ActivatedRoute, private router: Router, public readonly httpRequestsService: HttpRequestsService, public readonly share: ShareButtons) { 
+  constructor(private route: ActivatedRoute, private router: Router, public readonly httpRequestsService: HttpRequestsService) { 
 
     this.route.params.subscribe(
       res => {
